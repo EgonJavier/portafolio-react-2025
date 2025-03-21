@@ -1,0 +1,56 @@
+/* Presentacion.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .email, .cv, .github {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .email {
+    background-color: blue;
+  }
+  
+  .cv {
+    background-color: gray;
+  }
+  
+  .github {
+    background-color: black;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
