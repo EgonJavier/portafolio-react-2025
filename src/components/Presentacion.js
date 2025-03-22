@@ -7,10 +7,10 @@ export const Presentacion = () => {
     <div className="content">
       <div>
         <h1 className="name">Javier Oyarzún</h1>
-        <h5 className="tittle">Desarrollador de Software</h5>
+        <h5 className="title">Desarrollador de Software</h5>
       </div>
       <div className="buttons">
-        <a className="email" href="mailto:javieregon@outlook.com">Correo</a>
+        <a className="email" href="mailto:javieregon@outlook.com">javieregon@outlook.com</a>
         <a className="cv" href="#">CV</a>
         <a className="github" href="https://github.com/EgonJavier">GitHub</a>
       </div>

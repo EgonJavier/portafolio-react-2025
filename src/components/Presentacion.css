@@ -1,56 +1,76 @@
 /* Presentacion.css */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    gap: 50px; 
   }
   
   .content {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: flex-start; 
   }
   
   .name {
-    font-size: 2rem;
+    font-family: 'Alexandria', sans-serif;
+    font-size: 6rem;
     font-weight: bold;
+    white-space: nowrap;
+    color: black;
+    margin-bottom: 0;
   }
   
+  h5{
+    display: flex;
+  }
+
   .title {
-    font-size: 1.2rem;
-    color: gray;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 30px;
   }
   
   .buttons {
     display: flex;
-    gap: 10px;
+    gap: 20px;
   }
   
   .email, .cv, .github {
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 120px;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
   }
   
   .email {
-    background-color: blue;
+    background-color: rgb(158, 250, 72);
   }
   
   .cv {
-    background-color: gray;
+    background-color: rgb(158, 250, 72);
   }
   
   .github {
-    background-color: black;
+    background-color: rgb(158, 250, 72);
   }
   
-  .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+  .Portrait {
+    width: 500px;
+    height: 500px;
+    
   }
   
