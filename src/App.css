@@ -1,23 +1,13 @@
-.App {
-  text-align: center;
+.Portf-Presentation{
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Portf-About{
+  margin-bottom: 100px;
 }
 
-.Presentacion{
-  margin: auto;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.Portf-body {
   background-color: #E9EAE4;
   min-height: 100vh;
   display: flex;
@@ -25,17 +15,4 @@
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

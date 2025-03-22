@@ -1,7 +1,7 @@
 import React from 'react'
-import './Presentacion.css';
+import './Presentation.css';
 
-export const Presentacion = () => {
+export const Presentation = () => {
   return (
     <div className="container">
     <div className="content">
@@ -11,7 +11,7 @@ export const Presentacion = () => {
       </div>
       <div className="buttons">
         <a className="email" href="mailto:javieregon@outlook.com">javieregon@outlook.com</a>
-        <a className="cv" href="#">CV</a>
+        <a className="cv" href="https://github.com/EgonJavier">CV</a>
         <a className="github" href="https://github.com/EgonJavier">GitHub</a>
       </div>
     </div>
