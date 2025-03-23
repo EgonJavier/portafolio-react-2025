@@ -1,6 +1,7 @@
 import './App.css';
 import { About } from './components/About.js';
 import { Presentation } from './components/Presentation.js';
+import { Projects } from './components/Projects.js';
 
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
         </div>
         <div className='Portf-About'>
         <About></About>
+        </div>
+        <div>
+          <Projects></Projects>
         </div>
 
       </body>

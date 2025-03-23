@@ -17,5 +17,5 @@ export const Presentation = () => {
     </div>
     <img className="Portrait" alt='Portrait' src='https://i.pinimg.com/736x/05/d6/6b/05d66b0be22dc80463dff27174911f1b.jpg' />
   </div>
-);
-};
+)
+}
