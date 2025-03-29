@@ -1,9 +1,13 @@
 .Portf-Presentation{
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .Portf-About{
+  margin-bottom: 100px;
+}
+
+.Portf-Techs{
   margin-bottom: 100px;
 }
 

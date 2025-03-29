@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap');
+
+.techs{
+    display: flex;
+    gap: 8px;
+}
+
+.JavaScript, .ReactJS, .Html, .Css, .Flutter, .Figma{
+    border-radius: 19px;
+    width: 45px;
+    height: 45px;
+}
+
+.JS, .RJ, .H, .C, .Fl, .Fg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s;
+}
+
+.JS:hover, .RJ:hover, .H:hover, .C:hover, .Fl:hover, .Fg:hover{
+    transform: scale(1.1);
+}
+
+.techText{
+    display: flex;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    margin: auto;
+    margin-right: 25px;
+}
+

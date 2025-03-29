@@ -1,0 +1,28 @@
+.buttons2 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .email2, .cv2, .github2, .linkedin2 {
+    padding: 12px 20px;
+    border-radius: 120px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(158, 250, 72) ;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgb(158, 250, 72);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s;
+  }
+
+  .email2:hover, .cv2:hover, .github2:hover, .linkedin2:hover {
+    transform: scale(1.05);
+    border: 1px solid;
+  }

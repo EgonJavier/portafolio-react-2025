@@ -26,11 +26,8 @@
     margin-bottom: 0;
   }
   
-  h5{
-    display: flex;
-  }
-
   .title {
+    display: flex;
     font-family: 'Alexandria', sans-serif;
     font-weight: normal;
     font-size: 2rem;
@@ -41,24 +38,34 @@
   
   .buttons {
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
   }
   
-  .email, .cv, .github {
-    padding: 10px 15px;
+  .email, .cv, .github, .linkedin {
+    padding: 12px 20px;
     border-radius: 120px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border: 1px solid;
+    border: 1px solid rgb(158, 250, 72) ;
     font-family: "Inter", sans-serif;
-    font-weight: 300;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 18px;
     background-color: rgb(158, 250, 72);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s;
+  }
+
+  .email:hover, .cv:hover, .github:hover, .linkedin:hover {
+    transform: scale(1.05);
+    border: 1px solid;
   }
   
   .Portrait {
     width: 500px;
     height: 500px;
-    
   }
   

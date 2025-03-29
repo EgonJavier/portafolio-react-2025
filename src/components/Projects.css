@@ -16,22 +16,22 @@
     justify-content: center;
     max-width: 800px;
     margin: auto;
+    margin-bottom: 100px;
     padding: 20px;
     gap: 50px; 
   }
 
-.Project1{
+.Project{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 150px;
 }
 
-.Projectinfo1{
+.Projectinfo{
     max-width: min-content;
 }
 
-.Project1title{
+.Projecttitle{
     color: black;
     font-family: 'Alexandria', sans-serif;
     font-size: 32px;
@@ -41,45 +41,67 @@
     white-space: nowrap;
 }
 
-.Project2subt{
+.Projectsubt{
     margin-top: 0px;
     color: rgb(40, 40, 40);
     font-family: 'Alexandria', sans-serif;
 }
 
-.p1tec{
+.ImageProject{
+    transform: scale(80%);
+    transition: transform 0.3s
+}
+
+.ImageProject:hover{
+    transform: scale(85%);
+}
+
+.ptec{
     color: black;
-    display: list-item;
+    font-weight: 800;
     font-size: 18px;
     font-family: "Inter", sans-serif;
 }
 
-.p1tec:hover {
-    background-color: rgb(158, 250, 72);
-    border-radius: 120px;
-    font-weight: 600;
-    text-align: center;
+.ptec:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgb(158, 250, 72);
+    font-weight: 1000;
   }
 
-.pfProjectinfo1{
+.pfProjectinfo{
     color: black;
     font-size: 15px;
     font-family: "Inter", sans-serif;
 }
 
-.p1buttons{
+.pfProjectinfo2{
+    color: black;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    width: 305.5px;
+}
+
+.pbuttons{
     display: flex;
     gap: 20px;
 }
 
-.p1gumroad, .p1github{
+.pgumroad, .pgithub{
     padding: 10px 15px;
     border-radius: 120px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border: 1px solid;
+    border: 1px solid rgb(158, 250, 72);
     font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 18px;
     background-color: rgb(158, 250, 72);
+    transition: transform 0.2s;
 }
+
+.pgumroad:hover, .pgithub:hover{
+    transform: scale(1.05);
+    border: 1px solid;
+  }
