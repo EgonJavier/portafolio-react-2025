@@ -3,6 +3,8 @@
 .techs{
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .JavaScript, .ReactJS, .Html, .Css, .Flutter, .Figma{
@@ -26,7 +28,7 @@
     display: flex;
     font-family: 'Alexandria', sans-serif;
     font-weight: normal;
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw, 20px);
     color: black;
     margin: auto;
     margin-right: 25px;

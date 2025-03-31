@@ -12,7 +12,7 @@
 }
 
 .Portf-body {
-  background-color: #E9EAE4;
+  background: linear-gradient(to bottom, #e2ffd2, #E9EAE4, #aedf9a);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

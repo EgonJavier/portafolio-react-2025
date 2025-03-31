@@ -4,6 +4,7 @@ import IconCV from './Icons/IconCV.png';
 import IconGithub from './Icons/IconGithub.png';
 import IconLinked from './Icons/IconLinkedin.png';
 import IconMail from './Icons/IconMail.png';
+import FotoPerfil from './FotoPerfil.jpg';
 
 export const Presentation = () => {
   return (
@@ -17,7 +18,7 @@ export const Presentation = () => {
         <a className="email" href="mailto:javieregon@outlook.com">
         <img alt='IconMail' src={IconMail}/>
           javieregon@outlook.com</a>
-        <a className="cv" href="mailto:javieregon@outlook.com">
+        <a className="cv" href="/curriculum.pdf">
           <img alt='IconCV' src={IconCV}/>
         </a>
         <a className="github" href="https://github.com/EgonJavier">
@@ -28,7 +29,7 @@ export const Presentation = () => {
         </a>
       </div>
     </div>
-    <img className="Portrait" alt='Portrait' src='https://i.pinimg.com/736x/05/d6/6b/05d66b0be22dc80463dff27174911f1b.jpg' />
+    <img className="Portrait" alt='Portrait' src={FotoPerfil} />
   </div>
 )
 }

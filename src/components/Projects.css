@@ -5,36 +5,39 @@
     display: flex;
     justify-content: center;
     color: black;
-    font-size: 70px;
+    font-size: clamp(40px, 6vw, 70px);
     font-family: 'Alexandria', sans-serif;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .Projectcontainer {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 800px;
-    margin: auto;
-    margin-bottom: 100px;
+    max-width: 900px;
+    margin-left: 0%;
+    margin-bottom: 80px;
     padding: 20px;
-    gap: 50px; 
+    gap: 40px;
   }
 
 .Project{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
 }
 
 .Projectinfo{
-    max-width: min-content;
+    max-width: 100%;
 }
 
 .Projecttitle{
     color: black;
     font-family: 'Alexandria', sans-serif;
-    font-size: 32px;
+    font-size: clamp(24px, 3vw, 32px);
     font-weight: 600;
     margin-bottom: 0%;
     letter-spacing: 2px;
@@ -48,44 +51,46 @@
 }
 
 .ImageProject{
-    transform: scale(80%);
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     transition: transform 0.3s
 }
 
 .ImageProject:hover{
-    transform: scale(85%);
+    transform: scale(110%);
 }
 
 .ptec{
     color: black;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Inter", sans-serif;
 }
 
 .ptec:hover {
     text-decoration: underline;
     text-decoration-thickness: 5px;
-    text-decoration-color: rgb(158, 250, 72);
+    text-decoration-color: #9efa48;
     font-weight: 1000;
   }
 
 .pfProjectinfo{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Inter", sans-serif;
 }
 
 .pfProjectinfo2{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Inter", sans-serif;
     width: 305.5px;
 }
 
 .pbuttons{
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .pgumroad, .pgithub{
@@ -96,7 +101,7 @@
     border: 1px solid rgb(158, 250, 72);
     font-family: "Inter", sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     background-color: rgb(158, 250, 72);
     transition: transform 0.2s;
 }
@@ -105,3 +110,70 @@
     transform: scale(1.05);
     border: 1px solid;
   }
+
+  @media (max-width: 900px) {
+    .Projectcontainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .Project {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Projecttitle {
+        white-space: normal;
+    }
+
+    .ImageProject {
+        max-width: 90%;
+    }
+
+    .pfProjectinfo, .pfProjectinfo2 {
+        max-width: 90%;
+    }
+}
+
+  @media (max-width: 600px) {
+    .Projectstitle {
+        font-size: clamp(30px, 5vw, 50px);
+    }
+
+    .Projectcontainer {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .Project {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .Projectinfo {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .ImageProject {
+        max-width: 100%;
+    }
+
+    .pfProjectinfo, .pfProjectinfo2 {
+        font-size: 13px;
+    }
+
+    .pbuttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pgumroad, .pgithub {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
