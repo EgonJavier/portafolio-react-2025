@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portafolio-react-2025/static/css/main.807f0ae0.css",
+    "main.js": "/portafolio-react-2025/static/js/main.612647ad.js",
+    "static/media/Scripts.png": "/portafolio-react-2025/static/media/Scripts.a04d88f8cdb1cf3235bc.png",
+    "static/media/FotoPerfil.jpg": "/portafolio-react-2025/static/media/FotoPerfil.26c2e42a57c965fd617b.jpg",
+    "static/media/Consulta.png": "/portafolio-react-2025/static/media/Consulta.375329c9256152f4757e.png",
+    "static/media/anyagestor.png": "/portafolio-react-2025/static/media/anyagestor.d0a352fe3db5a1f00978.png",
+    "index.html": "/portafolio-react-2025/index.html",
+    "main.807f0ae0.css.map": "/portafolio-react-2025/static/css/main.807f0ae0.css.map",
+    "main.612647ad.js.map": "/portafolio-react-2025/static/js/main.612647ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.807f0ae0.css",
+    "static/js/main.612647ad.js"
+  ]
+}
