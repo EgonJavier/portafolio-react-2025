@@ -93,20 +93,24 @@
     gap: 15px;
 }
 
-.pgumroad, .pgithub{
-    padding: 10px 15px;
+.pvideo, .pgithub{
+    padding: 12px 20px;
     border-radius: 120px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(158, 250, 72);
+    border: 1px solid rgb(158, 250, 72) ;
     font-family: "Inter", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    background-color: rgb(158, 250, 72);
+    font-weight: 400;
+    font-size: clamp(14px, 2vw, 16px);
+    white-space: nowrap;
+    background-color: #9efa48;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     transition: transform 0.2s;
 }
 
-.pgumroad:hover, .pgithub:hover{
+.pvideo:hover, .pgithub:hover{
     transform: scale(1.05);
     border: 1px solid;
   }
@@ -172,7 +176,7 @@
         gap: 10px;
     }
 
-    .pgumroad, .pgithub {
+    .pvideo, .pgithub {
         font-size: 14px;
         padding: 10px;
     }

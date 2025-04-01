@@ -3,6 +3,8 @@ import './Projects.css';
 import Scripts from './Projects/Scripts.png';
 import Consulta from './Projects/Consulta.png';
 import Anya from './Projects/anyagestor.png';
+import IconGithub from './Icons/IconGithub.png';
+import IconVideo from './Icons/IconVideo.png';
 
 export const Projects = () => {
   return (
@@ -19,10 +21,14 @@ export const Projects = () => {
                   E.V.E 01 es un script el cual inyecta expresiones en diferentes propiedades de una capa.<br/><br/>
                   E.V.E 02 por su parte es un script creado para avanzar en la linea de tiempo una cantidad especifica de frames.<br/><br/>
                   Ambos codigos fueron creados en ExtendScript, lenguaje el cual esta basado en JavaScript.<br/><br/>
-                  2020</p>
+                  <em>2020</em></p>
                   <div className='pbuttons'>
-                    <a href='www.gumroad.com' className='pgumroad'>gumroad</a>
-                    <a href='www.github.com' className='pgithub'>github</a>
+                    <a href='https://github.com/EgonJavier/E.V.E-01' target="_blank" rel="noopener noreferrer" className='pgithub'>
+                    <img alt='IconGithub' src={IconGithub}/>
+                      Ver Código 1</a>
+                    <a href='https://github.com/EgonJavier/E.V.E-03' target="_blank" rel="noopener noreferrer" className='pgithub'>
+                  <img alt='IconGithub' src={IconGithub}/>
+                    Ver Código 2</a>
                   </div>
           </div>
         </div> 
@@ -41,10 +47,13 @@ export const Projects = () => {
                   escaneando codigos de barra con la camara de nuestro celular.<br/><br/>
                   Además usé la libreria Text-to-Speech, gracias a la cual la version de pantalla anclada es capaz de leer los precios en voz alta,
                   ademas de destacar si el producto esta en promoción.<br/><br/>
-                  2024</p>
+                  <em>2024</em></p>
                   <div className='pbuttons'>
-                    <a href='www.gumroad.com' className='pgumroad'>gumroad</a>
-                    <a href='www.github.com' className='pgithub'>github</a>
+                    <a href='www.gumroad.com' className='pvideo'>
+                    <img alt='IconVideo' src={IconVideo}/>Ver Video</a>
+                    <a href='https://github.com/EgonJavier/Consulta-Precios-v1' target="_blank" rel="noopener noreferrer" className='pgithub'>
+                    <img alt='IconGithub' src={IconGithub}/>
+                      Ver Código</a>
                   </div>
           </div>
         </div>
@@ -65,10 +74,10 @@ export const Projects = () => {
                   Sistema de registro por cargo, lo cual permite que cada cargo tenga sus propias funciones.<br/><br/>
                   La app cuenta con una base de datos en Supabase en la cual se le pueden agregar productos n de hacer inventarios,
                   notificar anomalias de los mismos y llevar control sobre los mismos.<br/><br/>
-                  2025</p>
+                  <em>En desarrollo</em></p>
                   <div className='pbuttons'>
-                    <a href='www.gumroad.com' className='pgumroad'>gumroad</a>
-                    <a href='www.github.com' className='pgithub'>github</a>
+                  <a href='www.gumroad.com' className='pvideo'>
+                  <img alt='IconVideo' src={IconVideo}/>Ver Video</a>
                   </div>
           </div>
         </div> 

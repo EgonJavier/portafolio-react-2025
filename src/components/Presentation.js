@@ -18,13 +18,13 @@ export const Presentation = () => {
         <a className="email" href="mailto:javieregon@outlook.com">
         <img alt='IconMail' src={IconMail}/>
           javieregon@outlook.com</a>
-        <a className="cv" href="/curriculum.pdf">
+        <a className="cv" href="/curriculum.pdf" target="_blank" rel="noopener noreferrer">
           <img alt='IconCV' src={IconCV}/>
         </a>
-        <a className="github" href="https://github.com/EgonJavier">
+        <a className="github" href="https://github.com/EgonJavier" target="_blank" rel="noopener noreferrer">
           <img alt='IconGithub' src={IconGithub}/>
         </a>
-        <a className="linkedin" href="https://www.linkedin.com/in/javier-egon-oyarzun-apablaza-19b3a1356/">
+        <a className="linkedin" href="https://www.linkedin.com/in/javier-egon-oyarzun-apablaza-19b3a1356/" target="_blank" rel="noopener noreferrer">
           <img alt='IconLinkedin' src={IconLinked}/>
         </a>
       </div>
