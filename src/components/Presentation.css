@@ -71,6 +71,10 @@
     width: 50%;
     max-width: 400px;
     height: auto;
+    mask-image: linear-gradient(
+      black 60%,
+      transparent
+    )
   }
   
 

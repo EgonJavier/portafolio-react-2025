@@ -4,7 +4,6 @@ import Scripts from './Projects/Scripts.png';
 import Consulta from './Projects/Consulta.png';
 import Anya from './Projects/anyagestor.png';
 import IconGithub from './Icons/IconGithub.png';
-import IconVideo from './Icons/IconVideo.png';
 
 export const Projects = () => {
   return (
@@ -49,8 +48,6 @@ export const Projects = () => {
                   ademas de destacar si el producto esta en promoción.<br/><br/>
                   <em>2024</em></p>
                   <div className='pbuttons'>
-                    <a href='www.gumroad.com' className='pvideo'>
-                    <img alt='IconVideo' src={IconVideo}/>Ver Video</a>
                     <a href='https://github.com/EgonJavier/Consulta-Precios-v1' target="_blank" rel="noopener noreferrer" className='pgithub'>
                     <img alt='IconGithub' src={IconGithub}/>
                       Ver Código</a>
@@ -76,8 +73,6 @@ export const Projects = () => {
                   notificar anomalias de los mismos y llevar control sobre los mismos.<br/><br/>
                   <em>En desarrollo</em></p>
                   <div className='pbuttons'>
-                  <a href='www.gumroad.com' className='pvideo'>
-                  <img alt='IconVideo' src={IconVideo}/>Ver Video</a>
                   </div>
           </div>
         </div> 
